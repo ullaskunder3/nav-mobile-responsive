@@ -28,7 +28,7 @@ header{
 }
 
 header::after{
-    content: '';
+    content:'';
     clear: both;
     display: block;
 }
@@ -124,19 +124,20 @@ q{
     color: tomato;
 }
 blockquote{
-    font-size: 1.5em;
+    font-size: 1.4em;
     position: relative;
     padding: 1.5em;
     background-color: #ece0d834;
     color: #FF7862;
     z-index: -1;
+    left: 30px;
 }
 blockquote::before {
     content: open-quote;
     position: absolute;
-    font-size: 8.5em;
+    font-size: 7em;
     opacity: 0.5;
-    left: -2rem;
+    left: -2.5rem;
     top: -3.5rem;
 }
 .main-para{
