@@ -52,7 +52,7 @@ header::after{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: #002366;
     clip-path: circle(0px at top right);
     transition: clip-path ease-in-out 700ms;
 }
